@@ -5,10 +5,11 @@
 	body
 	{
 			background-color: black;
-			background-image: url(bg2.png);
+			background-image: url(bg3.png);
 			background-size: cover;
-			height: 100%;
 			display: grid;
+			background-repeat: no-repeat;
+			height: 100%;
 	}
 
 	center
@@ -21,6 +22,7 @@
 		position: fixed;
 		bottom: 15px;
 		left: 50%;
+		z-index: 99;
 	}
 	
 	.Twitter
@@ -28,6 +30,7 @@
 		position: fixed;
 		bottom: 15px;
 		left: 48%;
+		z-index: 99;
 	}
 
 	.GitHub
@@ -35,14 +38,7 @@
 		position: fixed;
 		bottom: 15px;
 		left: 52%;
-	}
-
-	.Soon
-	{
-		color: white;
-		font-family: monospace;
-		font-size: 32px;
-		text-align: center;
+		z-index: 99;
 	}
 
 	.Everything
@@ -50,26 +46,97 @@
 
 	}
 
+	.AText
+	{
+		color: white;
+		font-family: monospace;
+		font-size: 32px;
+		text-align: center;
+	}
+
+	.ATextW
+	{
+		color: white;
+		font-family: monospace;
+		font-size: 16px;
+		text-align: center
+	}
+
+	.ATextInfo
+	{
+		width: 450px;
+	}
+
+	.ProjectsHeader
+	{
+		color: white;
+		font-family: monospace;
+		font-size: 32px;
+	}
+
+	.DemoProgram
+	{
+		position: absolute;
+		left: 500px;
+	}
+
+	.DemoProgram2
+	{
+		position: absolute;
+		left: 970px;
+	}
+
+	.Imagesa
+	{
+		position: relative;
+	}
+
+	.Header99
+	{
+		position: relative;
+		color: white;
+		font-family: monospace;
+		font-size: 32px;
+		text-align: center;
+		top: 430px;
+	}
+
 </style>
 </head>
 	
 	<center>
+
 		<div class="Everything">
-		<img class="O" src="O.png" width="250">
-		<h1 class="Soon">COMING SOON</h1>
+		<img class="O" src="O.png" width="250" onContextMenu="return false;">
+		<h1 class="AText"><u>ABOUT ME</u></h1>
+		<div class="ATextInfo">
+		<h1 class="ATextW">Hello, I am Octax aka Joshua I am 13 Years old and a rookie programmer hoping to become a Engineer or a professional Programmer I live in the UK and it sucks here, My main programming Languages are : Python, Html, CSS, C++ and C#</h1>
+		</div>
+			<h1 class="ProjectsHeader"><u>PROJECTS</u></h1>
 		<a href="https://v3rmillion.net/member.php?action=profile&uid=610680">
-			<img class="V3rm" src="V3rm.png" width="25">
+			<img class="V3rm" src="V3rm.png" width="25" onContextMenu="return false;">
 		</a>
 
 		<a href="https://twitter.com/O_ctax">
-			<img class="Twitter" src="twitter.png" width="25">
+			<img class="Twitter" src="twitter.png" width="25" onContextMenu="return false;">
 		</a>
 
 		<a href="https://github.com/0ctax">
-			<img class="GitHub" src="GitHub.png" width="25">
+			<img class="GitHub" src="GitHub.png" width="25" onContextMenu="return false;">
 		</a>
 		</div>
 	</center>
+	<div class="Imagesa">
+		<a href="AutoPlayRoblox.html">
+<img class="DemoProgram" src="750 Repeats.png" width="420" onContextMenu="return false;">
+		</a>
+		<a href="AutoPlayRoblox.html">
+<img class="DemoProgram2" src="750 Repeats.png" width="420" onContextMenu="return false;">
+		</a>
+	</div>
 
+	<div class="Everything">
+		<h1 class="Header99"><u>Test</u></h1>
+	</div>
 </body>
 </html>
